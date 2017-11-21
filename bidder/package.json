@@ -1,0 +1,17 @@
+{
+  "name": "bidder",
+  "version": "0.0.1",
+  "description": "simple real time bidder test example",
+  "main": "bidder.js",
+  "author": "Dimitris Charlaftis",
+  "license": "Open Source",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "async": "*",
+    "https": "*",
+    "http": "*",
+    "fs": "*",
+    "request": "*"
+  }
+}

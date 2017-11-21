@@ -1,0 +1,36 @@
+
+
+
+ TEST SCENARIO 1  
+ --------------- 
+ 
+USA	 | Test Campaign 1
+GRC	 | Test Campaign 1
+USA	 | Test Campaign 1
+USA	 | Test Campaign 4
+USA	 | Test Campaign 1
+
+
+ TEST SCENARIO 2 
+ --------------- 
+ 
+GBR	 | Test Campaign 5
+USA	 | Test Campaign 1
+GRC	 | Test Campaign 1
+USA	 | Test Campaign 4
+USA	 | Test Campaign 4
+USA	 | None
+USA	 | Test Campaign 1
+CYP	 | None
+
+
+ TEST SCENARIO 3  
+ --------------- 
+ 
+HUN	 | Test Campaign 3
+MEX	 | Test Campaign 3
+BRA	 | Test Campaign 2
+HUN	 | Test Campaign 3
+MEX	 | None
+CYP	 | None
+GBR	 | Test Campaign 5
