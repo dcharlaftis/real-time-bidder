@@ -90,14 +90,14 @@ function bidderCycle(req, callbk){
     callbk();
 }
 
-function runBidder(){
+function runBidder(timeout){
    var item = fetchBidRequest();
    //console.log("current item fetched = " + item);
 
    if (item)
    	 bidderCycle(item, runBidder);
    	else {
-   		setTimeout(runBidder, 1000);
+   		setTimeout(runBidder, timeout);
    	}
 }
 
@@ -107,7 +107,7 @@ app.post('/', function(req, res){
     res.end('ok');
 });
 
-runBidder();
+runBidder(1000);
 
 port = config.port;
 app.listen(port);
